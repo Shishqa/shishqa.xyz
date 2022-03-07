@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{%- include head.html -%}
+
+<body class="container">
+  {%- include header.html -%}
+
+	<div class="row">
+  	<div class="col-1 col-2-md col-2-lg"></div>
+  	<div class="col">
+
+			<h2 class="text-uppercase"> {{ page.title }} </h2>
+
+  		{%- for photo in page.photos -%}
+
+			<img src="https://drive.google.com/thumbnail?id={{ photo }}&sz=w800-h800" />
+
+  		{%- endfor -%}
+
+  	</div>
+  	<div class="col-1 col-2-md col-2-lg"></div>
+	</div>
+
+  {%- include footer.html -%}
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+@import url(https://unpkg.com/chota@latest);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+@import "highlight.css";
+
+:root {
+  --bg-color: #FFFFFF;
+  --bg-secondary-color: #F0F4EF;
+  --color-primary: #748E54;
+  --color-lightGrey: #E8EEE7;
+  --color-grey: #748E54;
+  --color-darkGrey: #3f4144;
+  --color-error: #d43939;
+  --color-success: #28bd14;
+  --font-size: 1.8rem;
+  --font-color: #171D1C;
+  --font-family-sans: "Nunito", sans-serif;
+  --font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+}
+
+pre, code {
+  overflow-x: scroll;
+  white-space: pre;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}

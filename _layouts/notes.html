@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{%- include head.html -%}
+
+<body class="container">
+  {%- include header.html -%}
+
+	<div class="row">
+  	<div class="col-1 col-2-md col-2-lg"></div>
+  	<div class="col">
+
+			<!--
+
+			<input class="tag is-full-width text-center" type="text" placeholder="search notes" id="search-input" autocomplete="off">
+  		<div id="search-results" class="search-results"></div>
+
+			<script src="https://unpkg.com/lunr/lunr.js"></script>
+			<script src="/assets/js/search.js"></script>
+
+  		{%- for note in site.notes -%}
+
+  		<a href="{{ note.url }}">
+				<div class="button dark outline is-full-width text-left" style="margin-top:10px">
+					<h4>{{ note.slug }}</h4>
+      		<p>{{ note.content | strip_html | remove: "[[" | remove: "]]" | truncate: 100 }}</p>
+				</div>
+  		</a>
+
+  		{%- endfor -%}
+			-->
+
+			<br><br><br>
+			<h1 class="text-center">work in progress</h1>
+
+  	</div>
+  	<div class="col-1 col-2-md col-2-lg"></div>
+	</div>
+
+  {%- include footer.html -%}
+</body>
+
+</html>
