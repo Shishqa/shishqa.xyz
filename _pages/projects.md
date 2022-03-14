@@ -5,6 +5,7 @@ permalink: /projects
 
 # Projects
 
+- [This website](https://github.com/Shishqa/shishqa.xyz)
 - [DANE for Torch](https://github.com/Shishqa/distributed-optimization) - Implementation of [DANE](http://proceedings.mlr.press/v32/shamir14.pdf) algorithm using Torch
 - [ShishGL](https://github.com/Shishqa/ShishGL) - High-level graphics library written in C++.
   - [YAGE](https://github.com/Shishqa/YAGE) -- Simple graphics editor using ShishGL
