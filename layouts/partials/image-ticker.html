@@ -1,0 +1,12 @@
+{{ $baseURL := .Site.BaseURL }}
+<div class="img-ticker-back">
+  <div class="img-ticker">
+    {{- with (.Params.dir) -}}
+      {{- $thumbs := readDir (print "/static/" . "/thumbs") -}}
+      {{ partial "image-ticker-row.html" (dict "context" . "thumbs" $thumbs "baseURL" $baseURL "dir" $.Params.dir) }}
+      {{ partial "image-ticker-row.html" (dict "context" . "thumbs" $thumbs "baseURL" $baseURL "dir" $.Params.dir) }}
+    {{- end }}
+  </div>
+</div>
+
+<!-- <p class="img-ticker-title">{{ .Params.title }}</p> -->
