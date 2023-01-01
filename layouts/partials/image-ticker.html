@@ -1,0 +1,11 @@
+{{ $baseURL := .Site.BaseURL }}
+<div class="img-ticker-back">
+  <div class="img-ticker">
+    {{- range (index .Site.Data.darkroom .Params.dir).gallery -}}
+      <img style="object-fit: cover;width: 16rem;height: 16rem;" src="{{ .thumb }}" alt="Photo" />
+    {{- end -}}
+    {{- range (index .Site.Data.darkroom .Params.dir).gallery -}}
+      <img style="object-fit: cover;width: 16rem;height: 16rem;" src="{{ .thumb }}" alt="Photo" />
+    {{- end -}}
+  </div>
+</div>

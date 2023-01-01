@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="container" style="padding-top: 5rem;">
+  <article>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-8">
+        <h1 class="is-center" style="font-family: FeatureMono;font-size: 4rem; line-height: 5rem; text-align: center;">{{ .Title }}</h1>
+        {{ .Content }}
+
+        {{ template "_internal/disqus.html" . }}
+      </div>
+      <div class="col"></div>
+    </div>
+  </article>
+  <div style="height: 8rem;"></div>
+</div>
+{{ end }}

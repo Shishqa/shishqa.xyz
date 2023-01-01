@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="container" style="padding-top: 5rem; margin-bottom: 16rem;">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8">
+      <h1 class="is-center" style="font-family: FeatureMono;font-size: 6rem">{{ .Params.title }}</h1>
+      {{ .Content }}
+      {{ range .Paginator.Pages }}
+      <a href="{{ .Permalink }}">
+        <div class="list-item">
+          <header>
+            <h4>{{ .Title }}</h4>
+          </header>
+          <p>{{ .Description }}</p>
+        </div>
+        </a>
+      {{ end }}
+      <div style="height: 8rem;"></div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+{{ end }}

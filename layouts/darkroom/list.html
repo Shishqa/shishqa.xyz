@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="container" style="padding-top: 5rem; margin-bottom: 16rem;">
+  <div style="height: 6rem;"></div>
+  <h1 class="is-center" title="{{ .Params.title }}" style="font-family: FeatureMono;font-size: 6rem;line-height: 1rem;">{{ .Params.title }}</h1>
+  <h1 class="is-center" title="{{ .Params.title }}" style="font-family: FeatureMono;font-size: 2rem;">{{ .Params.description }}</h1>
+  <div style="height: 4rem;"></div>
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8">
+      {{ .Content }}
+      {{ range .Paginator.Pages }}
+        <h2 class="is-center">{{ .Title }}</h2>
+        <a class="list-item is-paddingless" href="{{ .Permalink }}">
+        {{ partial "image-ticker.html" . }}
+        </a>
+        <div style="height: 4rem"></div>
+      {{ end }}
+      <div style="height: 8rem;"></div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,7 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+googleAnalytics = "G-6DFPR9V8BX"
+
+disqusShortname = "shishqa"
