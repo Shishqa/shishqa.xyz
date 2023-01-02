@@ -1,6 +1,11 @@
 ---
 title: Mikhail Shishatskiy
 ---
+
+{{< rawhtml >}}
+<img src="/img/landing.gif" style="width: 100%; max-width: 300px; margin-left: auto; margin-right: auto; display: block;">
+{{< /rawhtml >}}
+
 ## Experience
 
 - **Cloud Research assistant** \

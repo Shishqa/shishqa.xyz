@@ -1,6 +1,8 @@
 ---
 title: kubetos
-description: declare Kubernetes with TOSCA
+description: >
+  Yet another way to deploy Kubernetes
+  (but promising)
 ---
 
 Aim of this project is to try implementing Kubernetes deployment framework (like Kubespray) with TOSCA standard
@@ -20,9 +22,7 @@ To be continued
 <summary>Here you can see a cringe demo video 🌚</summary>
 <br>
 <div class="is-center">
-  <video controls height="200">
-    <source src="/projects/kubetos/kubetos-demo.mp4" type="video/mp4">
-  </video>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/s8TprVkiX-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </details>
 {{< /rawhtml >}}

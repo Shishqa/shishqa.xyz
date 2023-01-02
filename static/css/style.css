@@ -7,19 +7,13 @@
   src: url("/fonts/FeatureMono-Regular.ttf");
 }
 
-@font-face {
-  font-family: "MADEYourself";
-  src: url("/fonts/MADEYourself-Regular.otf");
-}
-
-
 :root {
   --bg-color: #ffffff;
   --font-family-sans: Inter;
   --font-size: 1.8rem;
   --font-family-mono: FeatureMono;
   --font-color: #080808;
-  --color-primary: #0000EE;
+  --color-primary: #ff8a1d;
   --color-lightGrey: #d2d6dd;
   --color-grey: #747681;
   --color-darkGrey: #080808;
@@ -98,6 +92,7 @@ body.dark {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
+  min-width: 300px;
   border-top: 2px solid var(--color-darkGrey);
 }
 

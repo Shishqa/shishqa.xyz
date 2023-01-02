@@ -1,7 +1,7 @@
 ---
-dir: "/img/2022-georgia"
+dir: "georgia2022"
 title: Georgia 2022
 ---
 
 {{< load-photoswipe >}}
-{{< gallery dir="/img/2022-georgia">}}
+{{< gallery dir="georgia2022">}}

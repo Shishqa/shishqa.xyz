@@ -1,7 +1,7 @@
 ---
-dir: "/img/2022-khakassia"
+dir: "khakassia2022"
 title: Khakassia 2022
 ---
 
 {{< load-photoswipe >}}
-{{< gallery dir="/img/2022-khakassia">}}
+{{< gallery dir="khakassia2022">}}
