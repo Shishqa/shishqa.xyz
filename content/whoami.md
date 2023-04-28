@@ -10,29 +10,34 @@ title: Mikhail Shishatskiy
 
 - **Cloud Research assistant** \
   [Ivannikov Institute for System Programming of the RAS](https://www.ispras.ru/en/) \
-  July 2021 --- now
-  - Extended [Michman](https://github.com/ispras/michman) orchestrator by adding the ability to deploy Kubernetes service and OpenPAI platform. Now the team deploys Kubernetes clusters through this solution
-  - Currently working with OASIS TOSCA support for Michman. Authored [Kubetos](https://github.com/Shishqa/kubetos) project, which was featured on the [TOSCA Implementation Landscape](https://github.com/philippemerle/tosca-implementation-landscape)
-  - Currently working on language-learning platform based on [Lingvodoc](http://lingvodoc.ispras.ru/), developing full-stack solution with supabase and flutter
-  
-  *Leveraged knowledge:* TOSCA, OCI, Ansible, Go, Kubernetes, Linux, OpenStack, Flutter, Git
-
+  *July 2021 --- now*
+  - Currently working on the domain-agnostic OASIS TOSCA orchestration system with support of [substitution mappings](https://docs.oasis-open.org/tosca/TOSCA/v2.0/csd05/TOSCA-v2.0-csd05.html#_Toc125468384)
+    - *stack:* Python FastAPI microservices, Docker, Ansible
+    - guided the system architecture from the beginning, learned from quite a lot of mistakes made
+    - developed an inline substitution mapping algorithm
+  - Currently working on the [language-learning platform](http://edu.ispras.ru) based on the [Lingvodoc](http://lingvodoc.ispras.ru/), pre-alpha stage
+    - *stack:* Flutter (riverpod), Supabase
+    - made self-hosted Supabase production ready (migrations, protected access)
+  - Developed [Kubetos](https://github.com/Shishqa/kubetos) — a set of TOSCA service templates for deploying highly customizable Kubernetes clusters
+    - *stack:* [xOpera](https://github.com/xlab-si/xopera-opera), Ansible, Kubernetes
+    - featured on the [TOSCA Implementation Landscape](https://github.com/philippemerle/tosca-implementation-landscape)
+  - Extended [Michman](https://github.com/ispras/michman) orchestrator by adding the ability to deploy Kubernetes service. Now this solution is used by the team for reproducible testing of other ISPRAS platforms
+    - *stack:* Ansible, Kubespray
 - **Intern Software Developer** \
   [VK group](https://vk.company/en/) --- [Tarantool](https://github.com/tarantool) \
-  March 2021 --- September 2021
+  *March 2021 --- September 2021*
   - Developed platform sampling profiler for LuaJIT. Which is now utilized by Tarantool team to profile user applications running on the Tarantool platform
   - Extended the memory profiler for LuaJIT by adding dynamic symbol table enriching
-  
-  *Leveraged knowledge:* C, Lua, JIT compilers, Perf, Git
+    - *stack:* LuaJIT, C, perf
 
 ## Skills
 
-- **Programming languages**
-  - *Working knowledge:* C, C++, Assembly, Python, Dart (Flutter)
+- **Languages**
+  - *Working knowledge:* C, C++, Assembly, Python, Dart (Flutter), TOSCA, SQL
   - *Basic knowledge:* Rust, Go, Lua, HTML
 - **Software**
-  - *Working knowledge:* Git, Ansible, Docker, Kubernetes, Kubespray, SQL
-  - *Basic knowledge:* OpenStack, Spark, CUDA, Jekyll
+  - *Working knowledge:* Git, Ansible, Kubespray, Docker, Kubernetes, Postgres
+  - *Basic knowledge:* OpenStack, Spark, CUDA
 - **OS**
   - Linux (_I use arch btw_), Windows
 - **Languages**
@@ -57,3 +62,6 @@ title: Mikhail Shishatskiy
 
 ## Also
 - In the summer I visit [Krasnoyarsk Summer School](https://klsh.ru/about/) to teach shoolstudents fascinating things in exact mathematical sciences and have fun
+  - «How I Learned to Stop Worrying and Shot Myself in the Foot» — C language course for beginners
+  - «Welcome to the Internet» — course telling how the Internet stack works (overview from the TCP/IP to the Cloud)
+  - «A Box with a Hole is Also a Camera» — course about geometrical optics and practice in building a pinhole camera
