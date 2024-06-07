@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>log on My New Hugo Site</title>
+    <link>http://localhost:1313/log/</link>
+    <description>Recent content in log on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>markdown test</title>
+      <link>http://localhost:1313/log/markdown-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/log/markdown-test/</guid>
+      <description>Overview Philosophy Block Elements Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Span Elements Links Emphasis Code Note: This document is itself written using Markdown; you can see the source for it by adding &amp;lsquo;.text&amp;rsquo; to the URL.&#xA;Overview Philosophy Markdown is intended to be as easy-to-read and easy-to-write as is feasible.&#xA;Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it&amp;rsquo;s been marked up with tags or formatting instructions.</description>
+    </item>
+    <item>
+      <title>parsing TOSCA with rust</title>
+      <link>http://localhost:1313/log/2023-07-08-tosca-parser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/log/2023-07-08-tosca-parser/</guid>
+      <description> TODO: TOC&#xA;What is TOSCA? Are there any parsers? Puccini TOSCA parser </description>
+    </item>
+  </channel>
+</rss>
